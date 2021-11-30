@@ -1,3 +1,8 @@
+.body-bg {
+  background-color: #fbb034;
+  background-image: linear-gradient(to right, #fbb034, #ffdd00);
+}
+
 .cover-container {
   /* max-width: 42em; */
 }
