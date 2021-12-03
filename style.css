@@ -3,28 +3,17 @@
   background-image: linear-gradient(to left, #fbb034, #ffdd00);
 }
 
-.cover-container {
-  /* max-width: 42em; */
-}
-
-footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-
 .nav-masthead .nav-link {
   padding: 0.25rem 0;
   font-weight: 700;
-  color: rgba(75, 75, 75, 0.5);
+  color: black;
   background-color: transparent;
   border-bottom: 0.25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  color: rgba(75, 75, 75, 0.5);
-  border-bottom-color: rgba(75, 75, 75, 0.5);
+  border-bottom-color: black;
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -40,4 +29,10 @@ footer {
 .btn-secondary:hover,
 .btn-secondary:focus {
   color: #333;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }

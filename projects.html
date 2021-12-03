@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="d-flex h-100 text-center body-bg">
-    <div class="cover-container d-flex w-100 h-100 mx-auto flex-column">
+    <div class="d-flex w-100 h-100 mx-auto flex-column">
       <!-- header -->
 
       <header class="shadow-sm p-3 mb-5">
-        <div>
+        <div class="container">
           <img
             src="/images/ignasiusadhitia-logo.svg"
             class="float-md-start mb-0"
@@ -27,7 +27,7 @@
           <nav class="nav nav-masthead justify-content-center float-md-end">
             <a href="/index.html" class="nav-link" aria-current="page">Home</a>
             <a href="/projects.html" class="nav-link active">Projects</a>
-            <a href="/contact.html" class="nav-link">Contact</a>
+            <a href="/contacts.html" class="nav-link">Contacts</a>
           </nav>
         </div>
       </header>
@@ -36,7 +36,16 @@
 
       <!-- main -->
 
-      <main class="px-3 position-absolute top-50 start-50 translate-middle">
+      <main
+        class="
+          container
+          px-3
+          position-absolute
+          top-50
+          start-50
+          translate-middle
+        "
+      >
         <h1>This is your title.</h1>
         <p class="lead">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum
@@ -61,8 +70,10 @@
 
       <!-- footer -->
 
-      <footer class="position-fixed shadow-sm pt-3 text-black-50">
-        <p>This is my footer</p>
+      <footer class="position-fixed shadow-sm pt-3 text-white-50 bg-dark">
+        <div class="container">
+          <p>This is my footer</p>
+        </div>
       </footer>
 
       <!-- footer end -->
