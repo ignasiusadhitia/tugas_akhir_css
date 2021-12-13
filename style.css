@@ -3,8 +3,6 @@ body {
 }
 
 #body-bg {
-  /* background-color: #fbb034;
-  background-image: linear-gradient(to left, #fbb034, #ffdd00); */
   position: fixed;
   right: 0;
   bottom: 0;
@@ -65,7 +63,8 @@ body {
   transform: rotate(360deg) scale(1.25);
 }
 
-span {
+span,
+.text-uppercase {
   color: red;
 }
 
