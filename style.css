@@ -30,8 +30,17 @@ body {
 }
 
 .nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
+.nav-masthead .nav-link:focus,
+.nav-masthead .active,
+span,
+.text-uppercase,
+.card-title {
   color: red;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus,
+.nav-masthead .active {
   border-bottom-color: red;
 }
 
@@ -39,15 +48,14 @@ body {
   margin-left: 1rem;
 }
 
-.nav-masthead .active {
-  color: red;
-  border-bottom-color: red;
+#container img,
+.card {
+  border: 8px solid rgba(0, 0, 0, 0.7);
+  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.7);
 }
 
 #container img {
   border-radius: 50%;
-  border: 8px solid rgba(0, 0, 0, 0.7);
-  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.7);
 }
 
 #container:hover img {
@@ -63,15 +71,22 @@ body {
   transform: rotate(360deg) scale(1.25);
 }
 
-span,
-.text-uppercase {
-  color: red;
+.card:hover {
+  transform: scale(1.1);
 }
 
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #333;
+.card-img-overlay {
+  z-index: 1;
+  transition: 0.5s ease;
+  opacity: 0;
+}
+
+.card:hover .carousel-inner {
+  opacity: 0.3;
+}
+
+.card:hover .card-img-overlay {
+  opacity: 1;
 }
 
 footer {
