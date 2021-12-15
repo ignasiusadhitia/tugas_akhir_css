@@ -60,6 +60,30 @@ header,
   width: 100vw;
 }
 
+.logo {
+  animation-name: logo;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes logo {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.85;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  75% {
+    opacity: 0.85;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .nav-masthead .nav-link {
   padding: 0.25rem 0;
   font-weight: 700;
