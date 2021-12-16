@@ -165,6 +165,19 @@ textarea {
   height: 8rem !important;
 }
 
+.btn-danger,
+.btn-danger:hover {
+  border: 2px solid red;
+}
+
+.btn-danger {
+  background-color: red;
+}
+
+.btn-danger:hover {
+  background-color: transparent;
+}
+
 footer {
   left: 0;
   bottom: 0;
