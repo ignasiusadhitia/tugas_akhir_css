@@ -98,7 +98,8 @@ header,
 span,
 .text-contact,
 .text-uppercase,
-.card-title footer a:hover {
+.card-title,
+footer a:hover {
   color: red;
 }
 
