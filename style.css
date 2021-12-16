@@ -98,7 +98,7 @@ header,
 span,
 .text-contact,
 .text-uppercase,
-.card-title {
+.card-title footer a:hover {
   color: red;
 }
 
@@ -156,8 +156,13 @@ span,
   opacity: 1;
 }
 
-.form-control:focus {
+.form-control:focus,
+.btn-danger,
+.btn-danger:hover {
   border-color: red;
+}
+
+.form-control:focus {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
 }
 
@@ -167,7 +172,8 @@ textarea {
 
 .btn-danger,
 .btn-danger:hover {
-  border: 2px solid red;
+  border-width: 2px;
+  border-style: solid;
 }
 
 .btn-danger {
@@ -188,8 +194,4 @@ footer {
 footer a {
   text-decoration: none;
   color: white;
-}
-
-footer a:hover {
-  color: red;
 }
